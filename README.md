@@ -5,7 +5,6 @@ This project is a collection of UI designs converted into functional front-end c
 ## Table of Contents
 
 - [Overview](#overview)
-- [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 - [Installation & Setup](#installation--setup)
   - [SASS / SCSS](#sass--scss)
@@ -128,4 +127,3 @@ Feel free to fork this repository and submit pull requests with improvements, fi
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-```
