@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f7ff !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 529px;
+  width: 95%;
+}
+main .box {
+  width: 97px;
+  height: 97px;
+  background-color: #cfd8e9;
+}
+main h4 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  color: #180b3d;
+}
+main p {
+  max-width: 327px;
+  width: 100%;
+}
+main .tags span {
+  color: #180b3d;
+  background-color: #f2f7ff;
+}
+main .stars {
+  color: #f7c443;
+  font-size: 1.5rem;
+}
+main .stars i {
+  cursor: pointer;
+}
+main .stars i:hover {
+  color: #f5b512;
+}
+main a,
+main a:visited {
+  color: #180b3d;
+}
