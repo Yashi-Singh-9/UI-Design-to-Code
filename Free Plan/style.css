@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #131828 !important;
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+main {
+  margin-top: 10rem;
+  max-width: 419px;
+  width: 95%;
+  background: linear-gradient(to bottom right, #ff7455, #f38a29);
+}
+main h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 1.625rem;
+}
+main p {
+  font-size: 1.125rem;
+  max-width: 299px;
+  width: 100%;
+}
+main button {
+  color: #131828;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+main button:hover {
+  background-color: #cccccc !important;
+}
