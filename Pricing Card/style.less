@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    background-color: #f5f8ff !important;
+}
+
+main {
+    margin-top: 8rem;
+
+    section {
+        background: linear-gradient(to bottom right, #c6fcff, #edbbff);
+        max-width: 1098px;
+        width: 95%;
+
+        .box {
+            h4 {
+                color: #141843;
+                font-family: "Merriweather", serif;
+                font-weight: 700;
+                font-size: 1.625rem;
+            }
+
+            p {
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: #141843;
+
+                span {
+                    font-size: 3.875rem;
+                    color: #141843;
+                }
+            }
+
+            .size {
+                font-size: 1rem;
+            }
+
+            .team-size {
+                font-size: 1.25rem;
+                font-weight: 500;
+                color: #141843;
+                max-width: 276px;
+                width: 100%;
+            }
+
+            button {
+                font-weight: 500;
+                max-width: 144px;
+                width: 100%;
+                transition: 0.3s ease;
+
+                &.start {
+                    background-color: #edbbff;
+
+                    &:hover {
+                        background-color: darken(#edbbff, 10%);
+                    }
+                }
+
+                &.standard {
+                    background-color: #aef1f5;
+
+                    &:hover {
+                        background-color: darken(#aef1f5, 10%);
+                    }
+                }
+
+                &.premium {
+                    background-color: #ffddb6;
+
+                    &:hover {
+                        background-color: darken(#ffddb6, 10%);
+                    }
+                }
+            }
+        }
+    }
+}

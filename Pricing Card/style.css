@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  background-color: #f5f8ff !important;
+}
+main {
+  margin-top: 8rem;
+}
+main section {
+  background: linear-gradient(to bottom right, #c6fcff, #edbbff);
+  max-width: 1098px;
+  width: 95%;
+}
+main section .box h4 {
+  color: #141843;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.625rem;
+}
+main section .box p {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #141843;
+}
+main section .box p span {
+  font-size: 3.875rem;
+  color: #141843;
+}
+main section .box .size {
+  font-size: 1rem;
+}
+main section .box .team-size {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #141843;
+  max-width: 276px;
+  width: 100%;
+}
+main section .box button {
+  font-weight: 500;
+  max-width: 144px;
+  width: 100%;
+  transition: 0.3s ease;
+}
+main section .box button.start {
+  background-color: #edbbff;
+}
+main section .box button.start:hover {
+  background-color: #e088ff;
+}
+main section .box button.standard {
+  background-color: #aef1f5;
+}
+main section .box button.standard:hover {
+  background-color: #81e9ef;
+}
+main section .box button.premium {
+  background-color: #ffddb6;
+}
+main section .box button.premium:hover {
+  background-color: #ffc583;
+}
