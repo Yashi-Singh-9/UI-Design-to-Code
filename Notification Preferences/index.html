@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Notification Preferences</title>
+</head>
+<body>
+    <main class="mx-auto mb-5 bg-white rounded-3 p-4">
+        <h1 class="mb-4">Groups and channels</h1>
+        <span class="d-block mb-4">You will activity notifications for:</span>
+
+        <section class="groups d-flex flex-wrap gap-5">
+            <div class="d-flex p-3">
+                <input type="radio" class="me-3">
+                <div class="d-flex flex-column">
+                    <h5>All activity</h5>
+                    <span>New messages, reactions, and all mentions.</span>
+                </div>
+            </div>
+            <div class="d-flex selected p-3">
+                <input type="radio" class="me-3" checked>
+                <div class="d-flex flex-column">
+                    <h5>Mentions & replies</h5>
+                    <span>Personal mentions and replies to your messages.</span>
+                </div>
+            </div>
+            <div class="d-flex p-3">
+                <input type="radio" class="me-3">
+                <div class="d-flex flex-column">
+                    <h5>Customised</h5>
+                    <span>Your customised settings are active.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

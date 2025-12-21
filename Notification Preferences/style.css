@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif !important;
+  font-weight: 400 !important;
+  background-color: #f6f5fe !important;
+}
+main {
+  max-width: 1102px;
+  width: 95%;
+  margin-top: 5rem;
+}
+main h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  color: #1b1a53;
+  font-size: 2rem;
+}
+main span {
+  font-weight: 1.125rem;
+  color: #1b1a53;
+}
+main .groups div {
+  max-width: 294px;
+  width: 100%;
+  cursor: pointer;
+}
+main .groups div input[type="radio"] {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+main .groups div div h5 {
+  color: #1b1a53;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+main .groups div div span {
+  font-size: 1.125rem;
+  color: #1b1a53;
+}
+main .groups .selected {
+  background-color: #1b1a53;
+  border-radius: 10px;
+}
+main .groups .selected input[type="radio"] {
+  accent-color: #fff;
+}
+main .groups .selected div h5,
+main .groups .selected div span {
+  color: #fff;
+}
