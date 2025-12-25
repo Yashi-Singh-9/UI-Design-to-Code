@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  background-color: #4e546a !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 680px;
+  width: 95%;
+  box-shadow: 30px 30px #414863;
+}
+main .info .fa-bell {
+  background-color: #f1f4ff;
+  color: #2852e7;
+  font-size: 2rem;
+  height: 100px;
+  width: 100px;
+}
+main .info div h5 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 1.375rem;
+  color: #19163c;
+}
+main .info div p {
+  color: #19163c;
+}
+main .info div .btns button {
+  max-width: 132px;
+  width: 100%;
+  transition: 0.3s ease;
+}
+@media (max-width: 328px) {
+  main .info div .btns button {
+    max-width: unset;
+  }
+}
+main .info div .btns button.allow {
+  background-color: #2852e7;
+  border: 1px solid #2852e7;
+}
+main .info div .btns button.allow:hover {
+  background-color: #fff;
+  color: #2852e7 !important;
+}
+main .info div .btns button.decline {
+  border: 1px solid #d7e0ff;
+  background-color: #f1f4ff;
+  color: #4e546a;
+}
+main .info div .btns button.decline:hover {
+  background-color: #fff;
+}
+main .fa-xmark {
+  cursor: pointer;
+  border: 2px solid #e1e5f4;
+  color: #9ea6c3;
+  transition: 0.3s ease;
+}
+main .fa-xmark:hover {
+  color: #ab313e;
+  border-color: #ab313e;
+}
