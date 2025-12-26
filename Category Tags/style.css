@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  background-color: #ececf9 !important;
+}
+main {
+  margin-top: 8rem;
+  max-width: 834px;
+  width: 95%;
+}
+main .tags h5 {
+  color: #151757;
+}
+main .tags .tag span {
+  cursor: pointer;
+  color: #151757;
+  border: 2px solid #ececf9;
+  transition: 0.3s ease;
+}
+main .tags .tag span.selected,
+main .tags .tag span:hover {
+  color: #fff;
+  background-color: #151757;
+  border-color: #151757;
+}
+main .article {
+  max-width: 577px;
+  width: 95%;
+}
+main .article h1 {
+  font-size: 1.375rem;
+  color: #151757;
+  max-width: 213px;
+  width: 100%;
+}
+main .article .rate span {
+  cursor: pointer;
+  border: 2px solid #ececf9;
+  height: 44px;
+  width: 44px;
+  transition: 0.3s ease;
+}
+main .article .rate span i {
+  font-size: 2rem;
+  color: #151757;
+}
+main .article .rate span:hover,
+main .article .rate span .selected {
+  background-color: #151757;
+  border-color: #151757;
+}
+main .article .rate span:hover i,
+main .article .rate span .selected i {
+  color: #ececf9;
+}
