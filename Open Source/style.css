@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  background-color: #231e36 !important;
+  font-family: "Mulish", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  color: #bcb8cc !important;
+}
+main {
+  margin-top: 5rem;
+  max-width: 407px;
+  width: 95%;
+  background-color: #1c172e;
+}
+main h4 {
+  font-size: 1.375rem;
+  font-family: "Merriweather", serif;
+}
+main a,
+main a:visited {
+  background-color: #4929bb;
+  max-width: 204px;
+  width: 100%;
+  transition: 0.3s ease;
+}
+main a:hover,
+main a:visited:hover {
+  background-color: #392091;
+}

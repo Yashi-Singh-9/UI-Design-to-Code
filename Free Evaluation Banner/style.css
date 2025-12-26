@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  background-color: #231e36 !important;
+  font-family: "Mulish", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  color: #bcb8cc !important;
+}
+main {
+  margin: 5rem auto;
+  max-width: 701px;
+  width: 95%;
+  background-color: #1c172e;
+}
+main h4 {
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+}
+main .idea {
+  font-size: 1.125rem;
+}
+main .idea p {
+  max-width: 284px;
+  width: 100%;
+}
+main .idea ul li a,
+main .idea ul li a:visited {
+  color: inherit;
+  transition: 0.2s ease;
+}
+main .idea ul li a:hover,
+main .idea ul li a:visited:hover {
+  color: #fff;
+}
+main button {
+  font-family: inherit;
+  font-weight: inherit;
+  background-color: #4929bb;
+  transition: 0.2s ease;
+  max-width: 190px;
+  width: 100%;
+}
+main button:hover {
+  background-color: #856bdf;
+}
+@media (max-width: 530px) {
+  main button {
+    max-width: unset;
+  }
+}

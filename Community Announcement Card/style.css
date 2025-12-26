@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eceef5 !important;
+}
+main {
+  max-width: 432px;
+  width: 95%;
+  margin-top: 10rem;
+}
+main h1 {
+  font-size: 1.625rem;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  background: linear-gradient(to bottom right, #e74f85, #924fe7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #101245;
+}
+main button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: #101245;
+  max-width: 130px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+main button:hover {
+  background-color: #fff;
+  color: #101245 !important;
+  border: 1px solid #dbe3ff !important;
+}
