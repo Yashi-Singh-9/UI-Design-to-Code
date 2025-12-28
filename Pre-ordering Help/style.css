@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ecf0ff !important;
+  font-family: "Roboto", sans-serif !important;
+}
+main {
+  max-width: 566px;
+  width: 100%;
+  margin-top: 8rem;
+  box-shadow: 0 8px 8px #b9c8ff;
+}
+main h5 {
+  font-size: 1.375rem;
+}
+main p {
+  max-width: 375px;
+  width: 100%;
+}
+main section button {
+  border: 1px solid #5074f3;
+  color: #5074f3;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+main section button:hover {
+  color: #fff;
+  background-color: #5074f3 !important;
+}
+main section button:last-child {
+  background-color: #5074f3;
+}
+main section button:last-child:hover {
+  color: #5074f3 !important;
+  border-color: #5074f3 !important;
+  background-color: #fff !important;
+}
