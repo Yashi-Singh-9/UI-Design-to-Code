@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=IBM+Plex+Sans:wght@500;700&display=swap")
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: 'IBM Plex Sans', sans-serif
+  font-weight: 500
+  background: linear-gradient(to right bottom, #F8F0FC, #D7DCED)
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+  color: #434956
+  
+  @media(max-width: 660px)
+    height: auto
+
+.pricing-container
+  display: flex
+  justify-content: space-around
+  gap: 50px
+  
+  @media(max-width: 660px)
+    margin: 80px auto
+    flex-direction: column
+  
+  .pricing-card
+    background-color: #fff
+    padding: 40px
+    border-radius: 15px
+    
+    h3
+      font-family: 'Merriweather', serif
+      font-weight: 900
+      font-size: 22px
+      margin-bottom: 10px
+    
+    .start
+      color: #7C54D1      
+    
+    .professional
+      color: #C5458A
+      
+    ul
+      list-style: none
+      margin-top: 50px
+      
+      li
+        font-size: 1.1rem
+        display: flex
+        gap: 10px
+        margin-bottom: 20px
+        align-items: center
+        
+        i
+          background-color: lighten(#85DB43, 30%)
+          color: #75A153
+          height: 37px
+          width: 37px
+          border-radius: 50%
+          display: flex
+          justify-content: center
+          align-items: center
+          vertical-align: middle 
+    
+    .starter,
+    .professional-btn  
+      font-family: 'IBM Plex Sans', sans-serif
+      font-weight: 500
+      padding: 16px
+      background: none
+      cursor: pointer
+      border-radius: 10px
+      max-width: 238px
+      width: 100%
+      margin: 30px auto
+      transition: all 0.3s ease
+    
+    .starter
+      border: 1px solid #7C54D1
+      color: #7C54D1
+      
+      &:hover
+          background-color: #7C54D1
+          color: #fff
+      
+    .professional-btn 
+      border: none
+      background-color: #C4458A
+      color: #fff
+      
+      &:hover
+        border: 1px solid #C4458A
+        background: none
+        color: #C4458A
+      
+    p
+      span
+        font-weight: 700
+      
+  .card-1
+    max-width: 330px
+    width: 100%
+    box-shadow: 0 0 0 10px lighten(#8EA7FF, 15%)
+    
+    @media(max-width: 360px)
+      width: 90%
+      margin: auto
+    
+  .card-2 
+    max-width: 330px
+    width: 100%
+    box-shadow: 0 0 0 10px lighten(#FF70DF, 15%)
+    
+    @media(max-width: 360px)
+      width: 90%
+      margin: auto

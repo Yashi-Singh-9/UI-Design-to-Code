@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@600&family=Merriweather:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  background-color: #EFF5FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+}
+
+.card {
+  max-width: 828px;
+  width: 100%;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgb(188, 213.125, 255);
+}
+@media (max-width: 850px) {
+  .card {
+    width: 90%;
+  }
+}
+@media (max-width: 850px) and (max-width: 768px) {
+  .card {
+    margin: 100px auto;
+  }
+}
+.card .header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.card .header h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.card .header button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card .header button:hover {
+  background-color: #333333;
+}
+.card p {
+  font-size: 16px;
+  max-width: 396px;
+  width: 100%;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.card .updated {
+  font-size: 14px;
+  color: #494949;
+}
+.card .categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 430px;
+  width: 100%;
+}
+.card .categories p {
+  font-size: 16px;
+  color: #494949;
+  margin-top: 20px;
+  margin-bottom: unset;
+}
+.card .categories .category {
+  background-color: #EFF5FF;
+  border-radius: 45px;
+  color: #2E29FF;
+  font-size: 16px;
+  padding: 15px 25px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

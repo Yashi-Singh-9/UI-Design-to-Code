@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background-color: #1F1C44 !important
+  font-family: 'Rockwell', serif !important
+  
+.container
+  max-width: 517px !important
+  width: 95%  
+  margin-top: 30px
+    
+  .google-btn
+    background-color: #5B86E6
+    font-size: 1.12rem
+    max-width: 380px
+    width: 100%
+    transition: 0.3s ease
+    margin: 0 auto !important
+    box-shadow: 0 6px 10px lighten(#5B86E6, 10%)
+    
+    &:hover
+      background-color: darken(#5B86E6, 10%)
+    
+    img
+      width: 55px
+      height: 55px
+      
+  .or-divider
+    margin: 20px 0
+    color: #949495
+    
+    &::before 
+      content: ""
+      flex-grow: 1
+      height: 1px
+      background-color: #949495
+      margin: 0 5px
+    
+    &::after
+      content: ""
+      flex-grow: 1
+      height: 1px
+      background-color: #949495
+      margin: 0 5px
+      
+  form  
+    margin-top: -3.5rem
+    
+    .form-group      
+      label
+        font-size: 1.15rem
+      
+      input
+        font-family: 'Mulish', sans-serif
+        font-weight: inherit
+        border: 1px solid #D9DCED
+        color: #000
+        outline: none
+        font-size: 1rem
+        max-width: 380px
+        width: 100%
+     
+    .get-started-btn
+      margin: 0 auto
+      background-color: #E65B7C
+      font-size: 1.2rem
+      box-shadow: 0 6px 10px lighten(#E65B7C, 15%)
+      max-width: 380px
+      width: 100%
+      
+      &:hover
+        background-color: lighten(#E65B7C, 5%)
+      
+  p
+    font-size: 1.1rem
+    
+    a,
+    a:visited
+      color: #5B86E6

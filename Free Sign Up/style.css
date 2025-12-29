@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1F1C44 !important;
+  font-family: "Rockwell", serif !important;
+}
+
+.container {
+  max-width: 517px !important;
+  width: 95%;
+  margin-top: 30px;
+}
+.container .google-btn {
+  background-color: #5B86E6;
+  font-size: 1.12rem;
+  max-width: 380px;
+  width: 100%;
+  transition: 0.3s ease;
+  margin: 0 auto !important;
+  box-shadow: 0 6px 10px rgb(135.253968254, 166.6507936508, 236.746031746);
+}
+.container .google-btn:hover {
+  background-color: rgb(46.746031746, 101.3492063492, 223.253968254);
+}
+.container .google-btn img {
+  width: 55px;
+  height: 55px;
+}
+.container .or-divider {
+  margin: 20px 0;
+  color: #949495;
+}
+.container .or-divider::before {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #949495;
+  margin: 0 5px;
+}
+.container .or-divider::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #949495;
+  margin: 0 5px;
+}
+.container form {
+  margin-top: -3.5rem;
+}
+.container form .form-group label {
+  font-size: 1.15rem;
+}
+.container form .form-group input {
+  font-family: "Mulish", sans-serif;
+  font-weight: inherit;
+  border: 1px solid #D9DCED;
+  color: #000;
+  outline: none;
+  font-size: 1rem;
+  max-width: 380px;
+  width: 100%;
+}
+.container form .get-started-btn {
+  margin: 0 auto;
+  background-color: #E65B7C;
+  font-size: 1.2rem;
+  box-shadow: 0 6px 10px rgb(240.119047619, 157.380952381, 177.0238095238);
+  max-width: 380px;
+  width: 100%;
+}
+.container form .get-started-btn:hover {
+  background-color: rgb(233.373015873, 113.126984127, 141.6746031746);
+}
+.container p {
+  font-size: 1.1rem;
+}
+.container p a,
+.container p a:visited {
+  color: #5B86E6;
+}/*# sourceMappingURL=style.css.map */
