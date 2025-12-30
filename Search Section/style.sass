@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Merriweather:wght@900&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: 'IBM Plex Sans', sans-serif
+  font-weight: 500
+  background: linear-gradient(to bottom right, #F0F4FF, #D9DDFF)
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100vh
+  
+  @media(max-width: 768px)
+      height: auto
+    
+.container
+  max-width: 1027px
+  width: 95%
+  padding: 80px
+  border-radius: 20px
+  background-color: #fff
+  box-shadow: 0 8px darken(#F0F4FF, 4%)
+    
+  @media(max-width: 768px)
+    margin: 50px auto
+  
+  h1
+    color: #151A46
+    font-family: 'Merriweather', serif
+    font-weight: 900
+    font-size: 46px
+    max-width: 707px
+    width: 100%
+    margin-bottom: 30px
+    
+    @media(max-width: 350px)
+      font-size: 34px
+  
+  p
+    font-size: 24px
+    max-width: 611px
+    width: 100%
+    margin-bottom: 30px
+    
+  .search-bar
+    display: flex
+    align-items: center
+    gap: 10px
+    margin-bottom: 50px
+    
+    @media(max-width: 768px)
+      flex-direction: column
+    
+    input
+      font-family: 'IBM Plex Sans', sans-serif
+      font-weight: 500
+      background-color: #FAFAFF
+      border: 1px solid #B3B8D8
+      border-radius: 5px
+      color: #151A46
+      font-size: 24px
+      padding: 18px
+      max-width: 573px
+      width: 100%
+      outline: none
+      
+      &::placeholder
+        color: darken(#B3B8D8, 20%)
+      
+    button
+      font-family: 'IBM Plex Sans', sans-serif
+      font-weight: 500
+      font-size: 24px
+      color: #fff
+      background-color: #151A46
+      border: none
+      border-radius: 5px
+      padding: 18px
+      max-width: 174px
+      width: 100%
+      cursor: pointer
+      transition: .3s ease
+        
+      @media(max-width: 768px)
+          width: 100%
+          max-width: unset
+      
+      &:hover
+        background-color: lighten(#151A46, 15%)
+      
+  .common-searches
+    margin-top: 20px
+    
+    p
+      font-size: 18px
+      
+    .search-tags
+      display: flex
+      flex-wrap: wrap
+      gap: 10px
+      
+      button
+        font-family: 'IBM Plex Sans', sans-serif
+        font-weight: 500
+        font-size: 18px
+        cursor: pointer
+        padding: 10px 20px
+        border-radius: 5px
+        border: none
+
+        &.blog
+          background-color: #FFEDF3
+          color: #D0678A
+          transition: 0.3s ease
+
+          &:hover
+            background-color: darken(#FFEDF3, 10%)
+            color: darken(#D0678A, 10%)
+          
+        &.business  
+          background-color: #F4EDFF
+          color: #805BBC
+          transition: 0.3s ease
+          
+          &:hover
+            background-color: darken(#F4EDFF, 10%)
+            color: darken(#805BBC, 10%)
+          
+        &.portfolio
+            background-color: #DFF4D7
+            color: #51933E
+            transition: 0.3s ease
+            
+            &:hover
+              background-color: darken(#DFF4D7, 10%)
+              color: darken(#51933E, 10%) 
+          
+        &.ecommerce
+          background-color: #FFECDA
+          color: #E27F23
+          transition: 0.3s ease
+          
+          &:hover
+            background-color: darken(#FFECDA, 10%)
+            color: darken(#E27F23, 10%)

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Merriweather:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  background: linear-gradient(to bottom right, #F0F4FF, #D9DDFF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+}
+
+.container {
+  max-width: 1027px;
+  width: 95%;
+  padding: 80px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 8px rgb(219.6, 229.04, 255);
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 50px auto;
+  }
+}
+.container h1 {
+  color: #151A46;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 46px;
+  max-width: 707px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media (max-width: 350px) {
+  .container h1 {
+    font-size: 34px;
+  }
+}
+.container p {
+  font-size: 24px;
+  max-width: 611px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.container .search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .container .search-bar {
+    flex-direction: column;
+  }
+}
+.container .search-bar input {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  background-color: #FAFAFF;
+  border: 1px solid #B3B8D8;
+  border-radius: 5px;
+  color: #151A46;
+  font-size: 24px;
+  padding: 18px;
+  max-width: 573px;
+  width: 100%;
+  outline: none;
+}
+.container .search-bar input::-moz-placeholder {
+  color: rgb(111.5913043478, 121.0260869565, 181.4086956522);
+}
+.container .search-bar input::placeholder {
+  color: rgb(111.5913043478, 121.0260869565, 181.4086956522);
+}
+.container .search-bar button {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  background-color: #151A46;
+  border: none;
+  border-radius: 5px;
+  padding: 18px;
+  max-width: 174px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+@media (max-width: 768px) {
+  .container .search-bar button {
+    width: 100%;
+    max-width: unset;
+  }
+}
+.container .search-bar button:hover {
+  background-color: rgb(38.6538461538, 47.8571428571, 128.8461538462);
+}
+.container .common-searches {
+  margin-top: 20px;
+}
+.container .common-searches p {
+  font-size: 18px;
+}
+.container .common-searches .search-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container .common-searches .search-tags button {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+.container .common-searches .search-tags button.blog {
+  background-color: #FFEDF3;
+  color: #D0678A;
+  transition: 0.3s ease;
+}
+.container .common-searches .search-tags button.blog:hover {
+  background-color: #ffbad1;
+  color: rgb(195.9547738693, 64.0452261307, 108.0150753769);
+}
+.container .common-searches .search-tags button.business {
+  background-color: #F4EDFF;
+  color: #805BBC;
+  transition: 0.3s ease;
+}
+.container .common-searches .search-tags button.business:hover {
+  background-color: rgb(212.8333333333, 186, 255);
+  color: rgb(102.6493506494, 66.1298701299, 161.8701298701);
+}
+.container .common-searches .search-tags button.portfolio {
+  background-color: #DFF4D7;
+  color: #51933E;
+  transition: 0.3s ease;
+}
+.container .common-searches .search-tags button.portfolio:hover {
+  background-color: #bfe9af;
+  color: rgb(61.2344497608, 111.1291866029, 46.8708133971);
+}
+.container .common-searches .search-tags button.ecommerce {
+  background-color: #FFECDA;
+  color: #E27F23;
+  transition: 0.3s ease;
+}
+.container .common-searches .search-tags button.ecommerce:hover {
+  background-color: rgb(255, 209.8108108108, 167);
+  color: rgb(185.5421686747, 102.0481927711, 24.4578313253);
+}/*# sourceMappingURL=style.css.map */
