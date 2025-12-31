@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Installment Payment Modal</title>
+</head>
+<body>
+    <div class="modal">
+        <i class="fa-solid fa-xmark"></i>
+        <div class="payment-modal">
+            <h2>Partial payment</h2>
+            <p>Partial payment with Consumer Bank AS or pay 53 995.- now</p>
+        </div>
+
+        <div class="payment-options">
+            <label for="payment-plan">Select monthly amount and repayment period:</label>
+            <select id="payment-plan">
+            <option value="6" data-rate="12.43" data-cost="1870" data-total="55865">
+                9,311.-/month for 6 months
+            </option>
+            <option value="12" data-rate="11.50" data-cost="3450" data-total="57445">
+                4,583.-/month for 12 months
+            </option>
+            <option value="24" data-rate="10.25" data-cost="6650" data-total="60645">
+                2,291.-/month for 24 months
+            </option>
+            </select>
+
+            <div class="payment-details">
+                <p>Effective interest rate: <span id="interest-rate">12.43%</span></p>
+                <p>Cost: <span id="cost">1,870.-</span></p>
+                <p>In total: <span id="total">55,865.-</span></p>
+            </div>
+
+            <p>Partial payment from Santander Consumer Bank AS presupposes the conclusion of a credit agreement with a credit card after credit assessment.</p>
+        </div>
+        <a href="#">Back to the product</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #f5f9ff;
+  color: #0b2055;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  @media (max-width: 580px) {
+    height: auto;
+  }
+}
+
+.modal {
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 32px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 556px;
+  width: 100%;
+
+  @media (max-width: 590px) {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .fa-xmark {
+    float: right;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      color: #e60000;
+    }
+  }
+
+  .payment-modal {
+    margin-top: 20px;
+
+    h2 {
+      font-family: "Merriweather", serif;
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      max-width: 320px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .payment-options {
+    margin: 20px 0;
+    background-color: #f5f9ff;
+    padding: 25px;
+    border-radius: 12px;
+
+    label {
+      font-size: 14px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    select {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      margin: 15px 0;
+      border: 1px solid #5884c6;
+      border-radius: 8px;
+      max-width: 364px;
+      width: 100%;
+      background: none;
+      padding: 15px;
+      outline: none;
+      color: #000;
+
+      option {
+        background: #f5f9ff;
+      }
+    }
+
+    .payment-details {
+      margin: 20px 5px;
+
+      p {
+        display: flex;
+        justify-content: space-between;
+        max-width: 364px;
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+
+        @media (max-width: 500px) {
+          flex-direction: column;
+        }
+      }
+    }
+
+    p {
+      font-size: 14px;
+      max-width: 328px;
+      width: 100%;
+    }
+  }
+
+  a,
+  a:visited {
+    text-align: center;
+    display: block !important; /* Ensure block display */
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #5884c6;
+    padding: 10px;
+    margin: 40px auto 10px auto !important; /* Force margin-top */
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+
+    &:hover {
+      background-color: #5884c6;
+      color: #fff;
+    }
+  }
+}

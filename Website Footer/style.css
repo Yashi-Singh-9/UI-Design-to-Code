@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD2FlzAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDDV5zAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAqEw.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #f1f2fc;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 780px) {
+  body {
+    height: auto;
+  }
+}
+footer {
+  background-color: #1e2641;
+  padding: 60px;
+  max-width: 1258px;
+  width: 95%;
+  border-radius: 15px;
+}
+@media (max-width: 780px) {
+  footer {
+    margin: 40px auto;
+  }
+}
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 780px) {
+  footer .footer-container {
+    flex-direction: column;
+  }
+}
+footer .footer-container .footer-section {
+  margin: 0 60px;
+}
+@media (max-width: 960px) {
+  footer .footer-container .footer-section {
+    margin: 0 30px;
+  }
+}
+footer .footer-container .footer-section h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+footer .footer-container .footer-section ul {
+  list-style: none;
+}
+footer .footer-container .footer-section ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+footer .footer-container .newsletter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+footer .footer-container .newsletter h3 {
+  margin: 30px 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+footer .footer-container .newsletter form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1150px) {
+  footer .footer-container .newsletter form {
+    flex-direction: column;
+  }
+}
+footer .footer-container .newsletter form input[type="email"] {
+  max-width: 224px;
+  width: 100%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #3a456a;
+  border-radius: 5px;
+  background: #1e2641;
+  color: #fff;
+  outline: none;
+  height: 51px;
+}
+@media (max-width: 780px) {
+  footer .footer-container .newsletter form input[type="email"] {
+    max-width: unset;
+  }
+}
+footer .footer-container .newsletter form input[type="email"]::placeholder {
+  color: #fff;
+}
+footer .footer-container .newsletter form button {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 10px;
+  height: 51px;
+  background-color: #f1f2fc;
+  color: #1e2641;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer .footer-container .newsletter h4 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+footer .footer-container .newsletter .social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+footer .footer-container .newsletter .social-icons a,
+footer .footer-container .newsletter .social-icons a:visited {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer .footer-container .newsletter .social-icons a .fa-facebook-f,
+footer .footer-container .newsletter .social-icons a:visited .fa-facebook-f,
+footer .footer-container .newsletter .social-icons a .fa-twitter,
+footer .footer-container .newsletter .social-icons a:visited .fa-twitter,
+footer .footer-container .newsletter .social-icons a .fa-instagram,
+footer .footer-container .newsletter .social-icons a:visited .fa-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  height: 46px;
+  width: 46px;
+}
+footer .footer-container .newsletter .social-icons a .fa-facebook-f,
+footer .footer-container .newsletter .social-icons a:visited .fa-facebook-f {
+  background-color: #4c6ea7;
+}
+footer .footer-container .newsletter .social-icons a .fa-twitter,
+footer .footer-container .newsletter .social-icons a:visited .fa-twitter {
+  background-color: #4297c4;
+}
+footer .footer-container .newsletter .social-icons a .fa-instagram,
+footer .footer-container .newsletter .social-icons a:visited .fa-instagram {
+  background: linear-gradient(45deg, #ffb73d 0%, #c47067 40%, #9d23e4 100%);
+}

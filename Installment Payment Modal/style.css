@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAqEw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9V1s.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #f5f9ff;
+  color: #0b2055;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 580px) {
+  body {
+    height: auto;
+  }
+}
+.modal {
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 32px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 556px;
+  width: 100%;
+}
+@media (max-width: 590px) {
+  .modal {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+.modal .fa-xmark {
+  float: right;
+  font-size: 24px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.modal .fa-xmark:hover {
+  color: #e60000;
+}
+.modal .payment-modal {
+  margin-top: 20px;
+}
+.modal .payment-modal h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.modal .payment-modal p {
+  max-width: 320px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.modal .payment-options {
+  margin: 20px 0;
+  background-color: #f5f9ff;
+  padding: 25px;
+  border-radius: 12px;
+}
+.modal .payment-options label {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+.modal .payment-options select {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 15px 0;
+  border: 1px solid #5884c6;
+  border-radius: 8px;
+  max-width: 364px;
+  width: 100%;
+  background: none;
+  padding: 15px;
+  outline: none;
+  color: #000;
+}
+.modal .payment-options select option {
+  background: #f5f9ff;
+}
+.modal .payment-options .payment-details {
+  margin: 20px 5px;
+}
+.modal .payment-options .payment-details p {
+  display: flex;
+  justify-content: space-between;
+  max-width: 364px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .modal .payment-options .payment-details p {
+    flex-direction: column;
+  }
+}
+.modal .payment-options p {
+  font-size: 14px;
+  max-width: 328px;
+  width: 100%;
+}
+.modal a,
+.modal a:visited {
+  text-align: center;
+  display: block !important;
+  /* Ensure block display */
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #5884c6;
+  padding: 10px;
+  margin: 40px auto 10px auto !important;
+  /* Force margin-top */
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+.modal a:hover,
+.modal a:visited:hover {
+  background-color: #5884c6;
+  color: #fff;
+}
