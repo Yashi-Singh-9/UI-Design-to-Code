@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Cancel Plan Modal</title>
+</head>
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="header">
+                <h2>Cancel Site Plan</h2>
+                <span class="close">&times;</span>
+            </div>
+            <p class="description">We're sorry to see you cancel your plan. To help us improve, we have a few short questions for you before you leave us.</p>
+
+            <p class="question">Why are you canceling your plan?</p>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox"> The software is too difficult to use</label>
+                <label><input type="checkbox"> Features I need are missing</label>
+                <label><input type="checkbox"> Too expensive</label>
+                <label><input type="checkbox" checked> I am done with this project</label>
+                <label><input type="checkbox"> I am using a different software now</label>
+            </div>
+           
+            <div class="error-message-checkbox"></div> <!-- Checkbox error message -->
+
+            <div class="input-group">
+                <label for="confirm">Type 'CANCEL' to confirm:</label>
+                <input type="text" id="confirm" placeholder="CANCEL">
+                <div class="error-message-input"></div> <!-- Input error message -->
+            </div>
+
+            <div class="button-group">
+                <button class="cancel-button">Cancel Plan</button>
+                <button class="close-button">Never mind</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

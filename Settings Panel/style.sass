@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Merriweather:wght@700&display=swap")
+
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+
+body 
+    font-family: "IBM Plex Sans", sans-serif
+    background-color: #f4f4f4
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+
+
+.container 
+    max-width: 767px
+    width: 100%
+    margin: 0 auto
+    padding: 50px
+    background-color: #fff
+    border-radius: 25px
+    box-shadow: 0 5px #000
+
+    .header 
+        background-color: #f4f4f4
+        padding: 5px 30px
+        border-radius: 15px
+  
+        h1 
+            font-family: "Merriweather", serif
+            font-weight: 700
+            font-size: 26px
+            margin: 20px auto
+    
+        p 
+            font-size: 16px
+            font-weight: 500
+
+    .form-group 
+        margin: 20px auto
+        padding: 10px
+        font-size: 14px
+    
+        label 
+            font-weight: 600
+            display: block
+            margin-bottom: 10px
+
+        p 
+            font-weight: 500
+            margin-bottom: 20px
+
+        .radio-group 
+            display: flex
+            flex-direction: column
+            gap: 25px
+
+            label 
+                font-size: 16px
+                margin-bottom: -10px
+                font-weight: 500
+
+            input[type="radio"] 
+                margin-right: 5px
+                width: 24px
+                height: 24px
+                vertical-align: middle
+                accent-color: #000
+
+    .button-group 
+        display: flex
+        gap: 20px
+
+        .btn 
+            font-family: "IBM Plex Sans", sans-serif
+            font-size: 16px
+            font-weight: 500
+            padding: 14px 30px
+            border: none
+            border-radius: 5px
+            cursor: pointer
+            margin-top: 20px
+        
+            &.btn-primary 
+                background-color: #000
+                color: #fff
+
+            &.btn-secondary 
+                background-color: #f4f4f4 
+                color: #000
+
+@media (max-width: 780px) 
+  body 
+    height: auto  
+
+  .container 
+    width: 90%
+    margin: 30px auto
+
+@media (max-width: 440px) 
+  .header 
+    padding: 10px 20px 
+
+  .header h1 
+    font-size: 22px  
+
+  .header p 
+    font-size: 14px  
+
+  .button-group 
+    flex-direction: column-reverse
+    gap: 0

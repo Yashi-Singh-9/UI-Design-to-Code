@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    
+    <title>Settings Panel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <h1>Destination Configuration</h1>
+          <p>Send invocation records to a destination when your function is invoked asynchronously, or if your function processes records from a stream.</p>  
+        </div>
+      
+        <div class="form-group">
+          <label for="source">SOURCE</label>
+          <p>The type of invocation that maps to the destination.</p>
+          <div class="radio-group">
+            <label for="async-invocation">
+              <input type="radio" id="async-invocation" name="source" value="async-invocation" checked> Asynchronous invocation</label>
+            <label for="stream-invocation">
+              <input type="radio" id="stream-invocation" name="source" value="stream-invocation"> Stream invocation</label>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="condition">CONDITION</label>
+          <p>The condition for using the destination.</p>
+          <div class="radio-group">
+            <label for="on-failure">
+              <input type="radio" id="on-failure" name="condition" value="on-failure" checked> On failure</label>
+            <label for="on-success">
+              <input type="radio" id="on-success" name="condition" value="on-success">
+              On success</label>
+          </div>
+        </div>
+      
+        <div class="button-group">
+          <button type="button" class="btn btn-secondary">Cancel</button>
+          <button type="button" class="btn btn-primary">Next</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebfb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #1e1e4e;
+}
+
+.modal {
+  width: 100%;
+  overflow: auto;
+}
+.modal .modal-content {
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 80px auto;
+  padding: 50px;
+  border: 1px solid #ddd;
+  width: 496px;
+  box-shadow: -40px -40px #ddddf2;
+}
+.modal .modal-content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.modal .modal-content .header h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.modal .modal-content .header .close {
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.modal .modal-content .header .close:hover {
+  color: #e33655;
+  transform: scale(1.1);
+}
+.modal .description {
+  font-size: 18px;
+  max-width: 296px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.modal .question {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.modal .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.modal .checkbox-group label {
+  margin-bottom: 14px;
+}
+.modal .checkbox-group label input[type=checkbox] {
+  accent-color: #fff;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.modal .input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal .input-group input {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #1e1e4e;
+  color: #1e1e4e;
+  outline: none;
+}
+.modal .button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal .button-group .cancel-button,
+.modal .button-group .close-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.modal .button-group .cancel-button {
+  background-color: #e33655;
+  color: #fff;
+}
+.modal .button-group .cancel-button:hover {
+  background-color: #d02a44;
+}
+.modal .button-group .close-button:hover {
+  background-color: #f1f1f1;
+  color: #1e1e4e;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 570px) {
+  .modal-content {
+    width: 90%;
+    padding: 30px;
+    margin: 60px auto;
+    box-shadow: -20px -20px #ddddf2;
+  }
+  .header h2 {
+    font-size: 20px;
+  }
+  .close {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .question {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .checkbox-group label {
+    margin-bottom: 10px;
+  }
+  input[type=checkbox] {
+    height: 18px;
+    width: 18px;
+  }
+  .input-group input {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .button-group .cancel-button,
+  .button-group .close-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  .cancel-button:hover,
+  .close-button:hover {
+    box-shadow: none;
+  }
+}/*# sourceMappingURL=style.css.map */
