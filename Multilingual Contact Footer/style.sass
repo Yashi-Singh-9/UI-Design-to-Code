@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@500&display=swap")
+
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body 
+    font-family: "Poppins", sans-serif
+    font-weight: 500
+    font-size: 18px
+    color: #fff
+    background-color: #3a4d7c
+
+footer 
+    background-color: #1e3161
+    padding: 70px 70px
+    border-radius: 15px
+    max-width: 1200px
+    width: 95%
+    margin: 80px auto
+
+    @media (max-width: 750px) 
+        margin: 60px auto
+
+    .footer-container 
+        display: flex
+        justify-content: space-between
+        gap: 20px
+
+        @media (max-width: 750px) 
+            flex-direction: column
+            gap: 50px
+
+        .footer-column 
+            flex: 1
+            
+
+            h3 
+                font-family: "Merriweather", serif
+                font-weight: 900
+                font-size: 26px
+                margin-bottom: 40px
+        
+            ul 
+                list-style: none
+            
+                li 
+                    margin-bottom: 20px
+                
+                    a,
+                    a:visited 
+                        color: #fff
+                        text-decoration: none
+
+                        &:hover 
+                            color: #b3c0d9
+
+            .languages 
+                max-width: 380px
+                width: 100%
+
+                a 
+                    color: #fff
+                    text-decoration: none
+                    margin: 5px 10px 10px 0
+                    display: inline-block
+
+                    &.active 
+                        background-color: #4da8da
+                        color: #ffffff
+                        padding: 3px 8px
+                        border-radius: 5px
+
+                    &:hover 
+                        color: #b3c0d9
+
+            .social-icons 
+                a 
+                    color: #fff
+                    font-size: 40px
+                    margin-right: 60px
+                    text-decoration: none
+
+                    &:hover
+                        color: #b3c0d9  
+
+    .footer-bottom 
+        text-align: center
+        margin-top: 20px
+
+        @media (max-width: 750px)   
+            margin-top: 80px
+            display: flex
+            gap: 20px
+            flex-direction: column
+
+        a,
+        a:visited 
+            color: #b3c0d9
+            text-decoration: none
+            margin: 0 10px
+
+            &:hover 
+                color: #ffffff
