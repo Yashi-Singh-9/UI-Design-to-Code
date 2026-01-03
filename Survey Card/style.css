@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900&family=Mulish:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1b2b5c;
+  background-color: #f1f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.feedback-container {
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 20px;
+  box-shadow: 0px 8px 8px rgba(181, 198, 221, 0.3);
+  max-width: 655px;
+  width: 100%;
+}
+.feedback-container h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 26px;
+  margin-bottom: 2rem;
+}
+.feedback-container form .options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1rem;
+}
+.feedback-container form .options label {
+  cursor: pointer;
+  accent-color: #1b2b5c;
+}
+.feedback-container form .options label input[type=radio] {
+  margin-right: 0.5rem;
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
+}
+.feedback-container form .comments {
+  margin-top: 2rem;
+}
+.feedback-container form .comments label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.feedback-container form .comments textarea {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background: #fbfcff;
+  color: #1b2b5c;
+  max-width: 455px;
+  width: 100%;
+  height: 80px;
+  padding: 0.5rem;
+  border: 1px solid #e3e8f5;
+  border-radius: 5px;
+  resize: none;
+}
+.feedback-container form .disclaimer {
+  font-size: 12px;
+  color: #7a7a7a;
+  margin: 1rem 0;
+  line-height: 1.5;
+  max-width: 542px;
+  width: 100%;
+}
+.feedback-container form .disclaimer a,
+.feedback-container form .disclaimer a:visited {
+  color: #7a7a7a;
+}
+.feedback-container form .buttons {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.feedback-container form .buttons .cancel-btn,
+.feedback-container form .buttons .submit-btn {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1rem 1.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.feedback-container form .buttons .cancel-btn {
+  background-color: #ebeffa;
+  color: #1b2b5c;
+}
+.feedback-container form .buttons .cancel-btn:hover {
+  background-color: #d1d8f9;
+  color: #1b2b5c;
+}
+.feedback-container form .buttons .submit-btn {
+  background-color: #1b2b5c;
+  color: #fff;
+}
+.feedback-container form .buttons .submit-btn:hover {
+  background-color: #163d7a;
+  color: #fff;
+}
+
+body {
+  height: auto;
+}
+
+.feedback-container {
+  width: 90%;
+  margin: 80px auto;
+}
+
+.options {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 430px) {
+  .buttons {
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=style.css.map */

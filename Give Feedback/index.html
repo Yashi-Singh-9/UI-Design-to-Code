@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Give Feedback</title>
+</head>
+<body>
+    <div class="feedback-modal">
+        <h2>Give feedback</h2>
+        <p>What do you think of the issue search experience within Jira projects?</p>
+
+        <div class="rating-options">
+            <label for="Terrible" class="border">
+                <input type="radio" id="Terrible" name="rating" value="Terrible">
+                <span class="emoji"><i class="fa-regular fa-face-sad-tear"></i></span>
+                <span>Terrible</span>
+            </label>
+
+            <label for="Bad" class="border">
+                <input type="radio" id="Bad" name="rating" value="Bad">
+                <span class="emoji"><i class="fa-regular fa-face-frown"></i></span>
+                <span>Bad</span>
+            </label>
+
+            <label for="Okay" class="border">
+                <input type="radio" id="Okay" name="rating" value="Okay">
+                <span class="emoji"><i class="fa-regular fa-face-meh"></i></span>
+                <span>Okay</span>
+            </label>
+
+            <label for="Good" class="border">
+                <input type="radio" id="Good" name="rating" value="Good" checked>
+                <span class="emoji"><i class="fa-regular fa-face-smile"></i></span>
+                <span>Good</span>
+            </label>
+
+            <label for="Amazing" class="border">
+                <input type="radio" id="Amazing" name="rating" value="Amazing">
+                <span class="emoji"><i class="fa-regular fa-face-laugh"></i></span>
+                <span>Amazing</span>
+            </label>
+        </div>
+
+        <label for="feedback-reason">What are the main reasons for your rating?</label>
+        <textarea id="feedback-reason"></textarea>
+
+        <div class="options">
+            <label class="checkbox">
+                <input type="checkbox" id="contact-consent" checked>
+                I may be contacted about this feedback. <a href="#">Privacy Policy</a>
+            </label>
+            <p id="contact-consent-error">Error: You must consent to be contacted.</p>
+
+            <label class="checkbox">
+            <input type="checkbox" id="join-research">
+            I’d like to help improve by joining the <a href="#">Research Group</a>.
+            </label>
+        </div>
+
+        <p id="success-message">Thank you for your feedback! Your response has been submitted.</p>
+
+        <div class="actions">
+            <button id="submit">Submit</button>
+            <button id="cancel">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Survey Card</title>
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>What do you think?</h2>
+
+        <form id="feedbackForm">
+            <div class="options">
+                <label><input type="radio" name="feedback" value="useful"> This is useful</label>
+                <label><input type="radio" name="feedback" value="wrong"> Something is wrong</label>
+                <label><input type="radio" name="feedback" value="notRelevant"> This is not relevant</label>
+                <label><input type="radio" name="feedback" value="notUseful"> This is not useful</label>
+            </div>
+
+            <div class="comments">
+                <label for="comments">Do you have any comments or suggestions?</label>
+                <textarea id="comments" name="comments" placeholder="Share your suggestions"></textarea>
+            </div>
+
+            <p class="disclaimer">
+            The data you provide helps us improve our platform. <a href="#">Find out more</a>
+            or if it is a legal case, you must <a href="#">submit a legal request</a>.
+            </p>
+
+            <div class="buttons">
+                <button type="button" class="cancel-btn">Cancel</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
