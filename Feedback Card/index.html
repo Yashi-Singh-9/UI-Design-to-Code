@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Feedback Card</title>
+</head>
+<body>
+    <div class="feedback-container">
+        <h1>Give feedback</h1>
+        <p>Your thoughts are valuable in helping improve our products.</p>
+
+        <!-- Add id="feedback-text" here -->
+        <textarea id="feedback-text" placeholder="Let us know what’s on your mind"></textarea>
+        <div id="textarea-error" class="error-message" style="display: none;"></div>
+
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" id="contact-checkbox" checked>
+                I may be contacted about this feedback. See our <a href="#">privacy policy</a>.
+            </label>
+        </div>
+
+        <div id="checkbox-error" class="error-message" style="display: none;"></div>
+
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" id="research-checkbox">
+                I’d like to help improve the products by joining the <a href="#">Research Group</a>.
+            </label>
+        </div>
+
+        <div id="success-message" class="success-message" style="display: none;"></div>
+        <button onclick="sendFeedback()">Send feedback</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

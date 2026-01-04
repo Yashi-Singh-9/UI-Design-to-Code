@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Try it now!</h1>
+        <p>Free trial, no obligation</p>
+
+        <form id="trialForm" novalidate>
+
+            <label for="email">Work email address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your work email address" required>
+            
+            <div id="error-message"></div>
+
+            <div class="checkbox-container">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required checked>
+                    I agree to the <a href="#">Terms and Conditions.</a>
+                </label>
+
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Subscribe to newsletters and communications.
+                </label>
+
+                <label for="onboarding">
+                    <input type="checkbox" id="onboarding" name="onboarding">
+                    Subscribe to trial onboarding emails.
+                </label>
+            </div>
+
+            <button type="submit" id="submitBtn">DOWNLOAD NOW</button>
+
+            <div id="success-message"></div>
+
+        </form>
+
+        <p class="privacy-notice">
+            We value your privacy and you have complete control over any information submitted. For more information see our <a href="#">privacy policy</a>.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@500;600&display=swap")
+
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body 
+    font-family: "Poppins", sans-serif
+    font-weight: 500
+    background-color: #f1f1f1
+
+.form-container 
+    background-color: #fff
+    padding: 80px
+    border-radius: 10px
+    box-shadow: 4px 4px #dcdcdc
+    max-width: 683px
+    width: 95%
+    margin: 30px auto
+
+    h1 
+        font-family: "Merriweather", serif
+        font-weight: bold
+        font-size: 42px
+        margin-bottom: 10px
+    
+    p 
+        font-size: 20px
+        margin-bottom: 40px
+
+    form
+        label[for="email"] 
+            font-weight: 600
+            color: #6d6d6d
+
+        input[type="email"] 
+            max-width: 483px
+            width: 100%
+            padding: 20px
+            margin: 10px 0
+            border: 2px solid #000
+            border-radius: 4px
+            font-size: 16px
+            margin-bottom: 20px
+    
+            &::placeholder
+                font-family: "Poppins", sans-serif
+                font-weight: 500
+
+        .checkbox-container 
+            display: flex
+            flex-wrap: wrap
+            margin: 20px 0
+
+            label 
+                display: block
+                margin-bottom: 20px
+
+                input[type="checkbox"] 
+                    height: 38px
+                    width: 38px
+                    vertical-align: middle
+                    accent-color: #000
+
+            a,
+            a:visited 
+                color: #4067f3
+                text-decoration: none
+                
+        button 
+            max-width: 500px
+            width: 100%
+            padding: 20px
+            background-color: #000
+            color: #fff
+            border: none
+            border-radius: 4px
+            cursor: pointer
+            font-family: "Poppins", sans-serif
+            font-weight: 500
+            font-weight: 18px
+            margin: 20px auto
+            transition: background-color 0.4s ease-in-out
+            font-size: 18px
+
+            &:hover 
+                background-color: #444
+
+    .privacy-notice 
+        max-width: 483px
+        width: 100%
+        font-size: 16px
+        margin: 10px 0
+
+@media (max-width: 500px) 
+h1 
+    font-size: 30px
+
+p 
+    font-size: 16px
+
+.checkbox-container 
+    flex-direction: column
+    align-items: flex-start
+    gap: 10px
+
+    input[type="checkbox"] 
+        height: 20px
+        width: 20px
