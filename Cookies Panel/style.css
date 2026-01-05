@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif !important;
+  background-color: #F4F5F9 !important;
+}
+
+main {
+  margin-top: 7rem;
+  background-color: #33363E;
+  max-width: 492px;
+  width: 95%;
+  box-shadow: 0 10px 10px rgb(161.5, 170, 204);
+}
+main img {
+  width: 130px;
+  height: 130px;
+}
+main .info p {
+  max-width: 294px;
+  width: 100%;
+}
+main .info span a,
+main .info span a:visited {
+  color: rgb(207.9404761905, 132.1666666667, 101.0595238095);
+  font-weight: 500;
+}
+main .info .btns button {
+  max-width: 121px;
+  width: 100%;
+  background-color: #1F222D;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */

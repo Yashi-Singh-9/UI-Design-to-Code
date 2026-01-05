@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 700 !important;
+  color: #242E4C !important;
+  background: linear-gradient(to bottom right, #03C1DB, #0DD5C4);
+  min-height: 100vh;
+}
+
+main {
+  margin-top: 7rem;
+  max-width: 600px;
+  width: 95%;
+}
+main h3 {
+  font-size: 1.625rem;
+}
+main a,
+main a:visited {
+  color: rgb(60.5892857143, 77.4196428571, 127.9107142857);
+  border: 1.5px solid #E6ECFF;
+}
+main .list .cards {
+  border: 1.5px solid #E6ECFF;
+  cursor: pointer;
+}
+main .list .cards.one {
+  border-left: 4.5px solid #F85E99;
+}
+main .list .cards.two {
+  border-left: 4.5px solid #D788FF;
+}
+main .list .cards.three {
+  border-left: 4.5px solid #FFA378;
+}
+main .list .cards span {
+  color: rgb(60.5892857143, 77.4196428571, 127.9107142857);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Newsletter Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <h2>Sign up for newsletters</h2>
+
+            <form id="newsletter-form" novalidate>
+
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="newsletters" value="daily-bits">
+                        <div>
+                            <span>Daily Bits</span>
+                            <small>Today's biggest news</small>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="newsletters" value="the-exchange">
+                        <div>
+                            <span>The Exchange</span>
+                            <small>Art, money and markets</small>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="newsletters" value="sponsorship" checked>
+                        <div>
+                            <span>Sponsorship</span>
+                            <small>Partnership insights</small>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="newsletters" value="week-in-review" checked>
+                        <div>
+                            <span>Week in Review</span>
+                            <small>The week’s biggest news</small>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="newsletters" value="event-updates">
+                        <div>
+                            <span>Event Updates</span>
+                            <small>Announcements and discounts</small>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="newsletters" value="this-week-in-art" checked>
+                        <div>
+                            <span>This Week in Art</span>
+                            <small>Art news of the week</small>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="email-input">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </div>
+            </form>
+
+            <div id="email-error" class="error-message"></div>
+            <div id="checkbox-error" class="error-message"></div> <!-- New element -->
+            <div id="success-message" class="success-message"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
