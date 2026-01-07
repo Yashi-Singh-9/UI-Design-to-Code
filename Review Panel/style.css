@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #f9fbfd !important;
+  color: #242e4c !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 431px;
+  width: 95%;
+  box-shadow: 0 8px 8px #d3e2f0;
+}
+main .fa-star {
+  color: #ffdc64;
+}
+main .rate {
+  font-size: 1.5rem;
+}
+main .people {
+  font-size: 0.9375rem;
+}
+main hr {
+  border: 2px solid #93a7eb;
+}
+main .question {
+  font-size: 1.125rem;
+}
+main .btns button {
+  max-width: 140px;
+  width: 100%;
+}
+main .btns button.yes {
+  background-color: #8e9eec;
+}
+main .btns button.no {
+  border: 2px solid #d7dced;
+  color: #a7afca;
+}
