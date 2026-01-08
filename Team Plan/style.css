@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #ebebf1 !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 460px;
+  width: 95%;
+  background-color: #853cd9;
+}
+main .close .fa-xmark {
+  background-color: #7a30cf;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close .fa-xmark:hover {
+  color: #ff4d4d;
+}
+main .plan-info h5 {
+  font-size: 1.75rem;
+  max-width: 195px;
+  width: 100%;
+}
+main .plan-info p {
+  font-size: 1.125rem;
+}
+main .plan-info button {
+  max-width: 161px;
+  width: 100%;
+  font-size: 1.125rem;
+  color: #303057;
+}
