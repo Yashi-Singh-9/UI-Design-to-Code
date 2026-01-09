@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap')
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body
+    font-family 'Open Sans', sans-serif !important
+    background-color #F7F9FD !important
+
+main 
+    margin-top 6rem
+    max-width 1100px
+    width 95%
+    background linear-gradient(to bottom right, #1B338E, #5373F0)
+    box-shadow 0 10px 10px lighten(#1B338E, 50%)
+
+    .header 
+        .logo
+            width 150px
+            height 60px
+
+        div
+            cursor pointer
+
+            i,
+            span                
+                transition 0.2s ease                  
+                color #DCDFF1 
+            
+            &:hover
+                i
+                    color lighten(red, 20%)
+
+                span
+                    font-weight 600    
+
+            span
+                font-size 0.875rem 
+                margin-top -0.5rem  
+
+    .info 
+        .star
+            width 252px
+            height 176px
+
+        h2 
+            font-size 2.25rem 
+
+        p 
+            max-width 700px 
+            width 100%    
+            font-size 1.25rem 
