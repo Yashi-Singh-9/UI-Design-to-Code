@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #f7f8fc !important;
+  color: #10182f !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 860px;
+  width: 95%;
+  box-shadow: 0 0 0 10px #f0f2fb;
+}
+main .star-logo {
+  width: 154px;
+  height: 100px;
+}
+main p {
+  max-width: 443px;
+  width: 100%;
+  font-size: 1.125rem;
+}
+main .btns button {
+  max-width: 300px;
+  width: 100%;
+}
+main .btns button.update {
+  color: #545d7a;
+  border: 2px solid #dae1f5;
+}
+main .btns button.back {
+  background-color: #10182f;
+}
+main .flow {
+  width: 150px;
+  height: 150px;
+}
