@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap')
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body
+    font-family 'Mulish', sans-serif !important
+    background-color #EDEEF7 !important
+    color #242E4C !important
+
+main 
+    margin-top 6rem
+    max-width 700px
+    width 95%
+    box-shadow 0 8px 8px darken(#EDEEF7, 20%)    
+    
+    .close
+        .fa-xmark 
+            cursor pointer
+            transition 0.2s ease
+            color lighten(#242E4C, 50%)
+
+            &:hover
+                color lighten(red, 30%)
+
+    .info 
+        img
+            width 150px
+            height 150px            
+
+        .details 
+            h4
+                font-size 1.5625rem 
+
+            p 
+                font-size 0.875rem
+                max-width 374px
+                width 100%
+
+            .btns
+                .got 
+                    width 82px    
+                    background linear-gradient(to right, #7CBAFB, #9289FF)        
