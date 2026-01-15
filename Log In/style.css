@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #1d1d1d !important;
+}
+main {
+  max-width: 980px;
+  width: 95%;
+  margin-top: 6rem;
+  background: url("images/background.png") no-repeat;
+  background-size: cover;
+}
+@media (max-width: 879px) {
+  main .info {
+    justify-content: center !important;
+  }
+}
+main .info .log-in-info {
+  background-color: rgba(8,8,8,0.84);
+  max-width: 435px;
+  width: 100%;
+}
+main .info .log-in-info h5 {
+  font-size: 1.375rem;
+}
+main .info .log-in-info .log-in-btn,
+main .info .log-in-info .log-in-btn:visited {
+  background-color: #4285f4;
+  max-width: 325px;
+  width: 100%;
+}
+main .info .log-in-info .log-in-btn img,
+main .info .log-in-info .log-in-btn:visited img {
+  width: 42px;
+  height: 42px;
+  margin-right: 1rem;
+}
+main .info .log-in-info .or {
+  font-size: 0.875rem;
+}
+main .info .log-in-info .or::before,
+main .info .log-in-info .or::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #777;
+  margin: 0 10px;
+}
+main .info .log-in-info .email-info label {
+  font-size: 0.875rem;
+}
+main .info .log-in-info .email-info input {
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: 1.5px solid #fff;
+  max-width: 325px;
+  width: 100%;
+}
+main .info .log-in-info .email-info button {
+  color: #0a0a0a;
+  max-width: 325px;
+  width: 100%;
+}
+main .info .log-in-info span {
+  font-size: 0.875rem;
+}
+main .info .log-in-info span .sign,
+main .info .log-in-info span .sign:visited {
+  color: #4285f4;
+}
+main .info .description {
+  max-width: 329px;
+  width: 100%;
+}
+@media (max-width: 879px) {
+  main .info .description {
+    max-width: 100%;
+  }
+}

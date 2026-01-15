@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap')
+
+* 
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body
+    font-family 'Mulish', sans-serif !important
+    background-color lighten(#040404, 10%) !important
+
+main 
+    max-width 980px
+    width 95%
+    margin-top 6rem
+    background url(images/background.png) no-repeat
+    background-size cover
+
+    .info
+        @media (max-width 879px)
+            justify-content center !important
+        
+        .log-in-info 
+            background-color rgba(8, 8, 8, 0.84)
+            max-width 435px
+            width 100%
+
+            h5 
+                font-size 1.375rem
+
+            .log-in-btn,
+            .log-in-btn:visited
+                background-color #4285F4
+                max-width 325px
+                width 100%
+
+                img 
+                    width 42px
+                    height 42px
+                    margin-right 1rem
+
+            .or
+                font-size 0.875rem
+
+                &::before,
+                &::after      
+                    content ""
+                    flex 1
+                    border-bottom 1px solid #777
+                    margin 0 10px
+
+            .email-info 
+                label 
+                    font-size 0.875rem 
+
+                input
+                    cursor pointer
+                    outline none
+                    color #fff    
+                    border 1.5px solid #fff
+                    max-width 325px 
+                    width 100%
+
+                button 
+                    color #0A0A0A
+                    max-width 325px 
+                    width 100%    
+
+            span
+                font-size 0.875rem
+
+                .sign,
+                .sign:visited
+                    color #4285F4
+
+        .description
+            max-width 329px
+            width 100%
+
+            @media (max-width 879px)
+                max-width 100%
