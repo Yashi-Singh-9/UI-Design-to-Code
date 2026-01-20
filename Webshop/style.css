@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif !important;
+  color: #3c444e !important;
+  background-color: #f6f5ff !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 430px;
+  width: 95%;
+  box-shadow: 0 10px 10px #c9c3ff;
+}
+main .price {
+  font-size: 1.875rem;
+  font-weight: 900;
+}
+main img {
+  width: 165px;
+  height: 165px;
+}
+main h5 {
+  font-weight: 900;
+}
+main button {
+  background-color: #f5a623;
+}
