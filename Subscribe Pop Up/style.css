@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+  background: linear-gradient(to bottom right, #80C3F3, #4A64E2);
+  color: #1A2950;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 900px;
+  width: 95%;
+  box-shadow: 18px 18px #4A6CDB;
+  margin-top: 6rem;
+}
+main .close .fa-xmark {
+  color: rgb(80.1935483871, 113, 145.8064516129);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close .fa-xmark:hover {
+  color: #ff3333;
+}
+main .info img {
+  width: 100px;
+  height: 100px;
+}
+main .info h2 {
+  font-size: 2.25rem;
+}
+main .info .email-info input {
+  max-width: 450px;
+  width: 100%;
+  border: 2px solid #CAD0D7;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+}
+main .info .email-info input::-moz-placeholder {
+  color: rgb(131.0968421053, 138.3852631579, 148.1031578947);
+}
+main .info .email-info input::placeholder {
+  color: rgb(131.0968421053, 138.3852631579, 148.1031578947);
+}
+main .info .email-info button {
+  max-width: 200px;
+  width: 100%;
+  background-color: #597EE7;
+}/*# sourceMappingURL=style.css.map */
