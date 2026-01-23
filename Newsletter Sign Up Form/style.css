@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif !important;
+  background-color: #F2F5F8 !important;
+  color: #1c223b !important;
+}
+
+main {
+  margin-top: 6rem;
+  max-width: 945px;
+  width: 95%;
+  box-shadow: 0 10px 10px rgb(208.85, 219.5, 230.15);
+}
+main h4 {
+  font-size: 1.625rem;
+}
+main p {
+  max-width: 500px;
+  width: 100%;
+  font-size: 1.125rem;
+}
+main input {
+  max-width: 450px;
+  width: 100%;
+  border: 2px solid #CAD3DB;
+  font-size: 1.125rem;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+}
+main button {
+  background-color: #3D9FFF;
+  box-shadow: 0 10px 10px rgb(112, 184.2371134021, 255);
+  max-width: 180px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
