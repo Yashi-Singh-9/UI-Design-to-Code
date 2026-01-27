@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif !important;
+  background-color: #AFC1E5 !important;
+  color: #242E4C !important;
+}
+
+main {
+  margin-top: 5rem;
+  max-width: 950px;
+  width: 95%;
+  box-shadow: 0 10px 10px #E9E9F3;
+}
+main img {
+  width: 180px;
+  height: 180px;
+}
+main p {
+  max-width: 400px;
+  width: 100%;
+  font-size: 1.25rem;
+}
+main .implement {
+  background-color: #F5F5F8;
+  max-width: 750px;
+  width: 100%;
+}
+main .implement a,
+main .implement a:visited {
+  background: linear-gradient(to right, #6CB7FF, #7985FF);
+  max-width: 330px;
+  width: 100%;
+  font-size: 1.125rem;
+}/*# sourceMappingURL=style.css.map */
