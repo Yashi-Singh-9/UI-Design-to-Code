@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    color: #202842 !important;
+    background-color: #F7F9FD !important;
+}
+
+main {
+    margin-top: 7rem;
+
+    h1 {
+        max-width: 574px;
+        width: 100%;
+    }
+
+    .info {
+        .cards {
+            max-width: 375px;
+            width: 95%;
+            background: linear-gradient(to bottom right, #F7F9FD, #FCFDFF);
+            box-shadow: 0px 10px 12px rgba(61, 102, 224, 0.24);
+            cursor: pointer;
+            transition: 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            img {
+                width: 208px;
+                height: 208px;
+            }
+        }
+    }
+
+}
