@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif !important;
+    background-color: #f5f6ff !important;
+}
+
+main {
+    max-width: 485px;
+    width: 95%;
+    margin-top: 5rem;
+    box-shadow: -15px -15px #4471f5;
+
+    .container {
+        h4 {
+            color: #172039;
+            font-size: 1.5rem;
+        }
+
+        .stars {
+            i {
+                color: #f8ab18;
+            }
+
+            p {
+                font-weight: 900;
+                color: #172039;
+
+                a,
+                a:visited {
+                    color: #747988;
+                }
+            }
+        }
+
+        h2 {
+            color: #172039;
+            font-weight: 900;
+        }
+
+        .button {
+            background-color: #f5f6ff;
+            font-weight: 600;
+
+            @media (max-width: 520px) {
+                flex-direction: column;
+            }
+
+            .deliver {
+                color: #747988;
+            }
+
+            .pick-up {
+                color: #172039;
+            }
+        }
+
+        .input {
+            i {
+                position: absolute;
+                left: 15px;
+                color: #747988;
+            }
+
+            input[type="text"] {
+                max-width: 785px;
+                width: 100%;
+                border: 1px solid #d7d9e8;
+                color: #172039;
+                outline: none;
+                padding: 1rem 1rem 1rem 2.2rem !important;
+                cursor: pointer;
+
+                &::placeholder {
+                    color: #172039;
+                }
+            }
+        }
+
+        .defualt-address {
+            border: 1px solid #d7d9e8;
+
+            p {
+                font-size: 1.125rem;
+
+                span {
+                    font-weight: 400;
+                }
+            }
+
+            .pick {
+                font-size: 1rem;
+            }
+
+            .opening {
+                color: #747988;
+                font-size: 0.875rem;
+            }
+
+            .cart-btn {
+                background-color: #4571f5;
+                max-width: 337px;
+                width: 100%;
+                transition: 0.3s ease;
+
+                &:hover {
+                    background-color: darken(#4571f5, 10%);
+                }
+            }
+        }
+
+        .description {
+            color: #747988;
+            font-size: 0.875rem;
+        }
+    }
+
+    .selected {
+        background-color: #4571f5 !important;
+        color: white !important;
+        font-weight: 700;
+    }      
+}
