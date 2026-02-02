@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  background-color: #1C1E2F;
+  color: #8C8FAA;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rem auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 50px;
+}
+@media (max-width: 768px) {
+  footer {
+    margin: 100px auto;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+}
+footer .shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .shortcuts h4 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+footer .shortcuts .links-container {
+  display: flex;
+  gap: 7rem;
+}
+@media (max-width: 500px) {
+  footer .shortcuts .links-container {
+    flex-direction: column;
+    gap: 3px;
+  }
+}
+footer .shortcuts .links-container .links {
+  display: flex;
+  flex-direction: column;
+}
+footer .shortcuts .links-container .links a,
+footer .shortcuts .links-container .links a:visited {
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+}
+footer .shortcuts .links-container .links a:hover,
+footer .shortcuts .links-container .links a:visited:hover {
+  color: #fff;
+}
+footer .shortcuts .links-container .links .selected {
+  color: #fff;
+}
+footer .language {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .language label {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+}
+footer .language select {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #9A74EA;
+  border-radius: 10px;
+  background-color: #27293F;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  width: 185px;
+}
+footer .language select option {
+  background-color: #27293F;
+  color: #fff;
+}
+footer .language select option:hover {
+  background-color: #1C1E2F;
+}/*# sourceMappingURL=style.css.map */
