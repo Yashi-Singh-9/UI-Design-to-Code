@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Merriweather:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F3F8FD;
+}
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+}
+
+.staff-section {
+  background-color: #fff;
+  box-shadow: 0 5px 8px rgb(177.4285714286, 209.75, 242.0714285714);
+  padding: 60px;
+  border-radius: 15px;
+  max-width: 824px;
+  width: 100%;
+}
+@media (max-width: 860px) {
+  .staff-section {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .staff-section {
+    margin: 60px auto;
+  }
+}
+.staff-section h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+.staff-section .staff-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+}
+@media (max-width: 768px) {
+  .staff-section .staff-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+.staff-section .staff-grid .staff-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1.3rem;
+}
+@media (max-width: 768px) {
+  .staff-section .staff-grid .staff-card {
+    margin: 0 auto;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 530px) {
+  .staff-section .staff-grid .staff-card {
+    flex-direction: column;
+  }
+}
+.staff-section .staff-grid .staff-card .staff-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.staff-section .staff-grid .staff-card .staff-details h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.35rem;
+}
+.staff-section .staff-grid .staff-card .staff-details span {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1.4rem;
+}
+.staff-section .staff-grid .staff-card .staff-details .staff-links {
+  display: flex;
+  gap: 1rem;
+}
+.staff-section .staff-grid .staff-card .staff-details .staff-links a,
+.staff-section .staff-grid .staff-card .staff-details .staff-links a:visited {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+.staff-section .staff-grid .staff-card .staff-details .staff-links a i,
+.staff-section .staff-grid .staff-card .staff-details .staff-links a:visited i {
+  margin-right: 5px;
+}
+.staff-section .view-everyone-btn {
+  display: block;
+  margin: 2rem 0 0 0;
+  padding: 15px 20px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  max-width: 191px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+@media (max-width: 768px) {
+  .staff-section .view-everyone-btn {
+    margin: 5rem auto 0 auto;
+  }
+}
+.staff-section .view-everyone-btn:hover {
+  background-color: #333333;
+}
+
+.staff-message {
+  display: block;
+  font-size: 1rem;
+  margin: 20px auto;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .staff-message {
+    text-align: center;
+    margin: 50px auto -50px auto;
+  }
+}/*# sourceMappingURL=style.css.map */
