@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Checkout</title>
+</head>
+<body>
+    <div class="subscription-container">
+        <h1>Get unlimited access to everything</h1>
+        <div class="plan-options">
+            <label>
+                <input type="radio" name="plan" value="monthly" id="monthly-plan">
+                <div>
+                    <span>Monthly</span>
+                    <p>$7/month</p>
+                </div>
+            </label>
+
+            <label class="selected">
+                <input type="radio" name="plan" value="yearly" id="yearly-plan" checked>
+                <div>
+                    <span>Yearly</span>
+                    <small>Save $10</small>
+                    <p>$50/year</p>
+                </div>
+            </label>
+        </div>
+
+        <div class="billing-summary">
+            <h3>Total billed $50</h3>
+            <p>Enter your credit card details to complete subscription</p>
+        </div>
+
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="card-number">Card number</label>
+                <input type="text" id="card-number" placeholder="1234 1234 1234 1234">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="expiration-date">Expiration date</label>
+                    <input type="text" id="expiration-date" placeholder="MM/YY">
+                </div>
+                <div class="form-group">
+                    <label for="security-code">Security code</label>
+                    <input type="text" id="security-code" placeholder="123">
+                </div>
+            </div>
+            <p class="terms">
+                By subscribing you agree to our Use of Service. Your payment method will be charged with $50 and you’ll have access to all locked features until 20 Jan 2022.
+            </p>
+            <button type="submit" class="pay-now-btn">Pay Now</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
