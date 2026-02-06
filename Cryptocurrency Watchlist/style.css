@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+}
+.container .selector {
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 20px;
+  max-width: 340px;
+  width: 90%;
+  box-shadow: -20px -30px #ccd5f9;
+}
+.container .selector .filter-bar {
+  display: flex;
+  margin: 30px auto 20px;
+  justify-content: center;
+  min-width: 300px;
+}
+.container .selector .filter-bar .filter-btn {
+  background: none;
+  border: 1px solid #dde1f4;
+  width: 65px;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container .selector .filter-bar .filter-btn.active {
+  background: #4a6fff;
+  color: #fff;
+}
+.container .selector .search-input {
+  width: 80%;
+  padding: 14px;
+  display: block;
+  margin: 0 auto 20px;
+  border: 1px solid #dde1f4;
+  background: #f2f5ff;
+  border-radius: 5px;
+}
+.container .selector .crypto-list {
+  list-style: none;
+  margin-top: 10px;
+}
+.container .selector .crypto-list .crypto-item {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  padding: 15px;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+.container .selector .crypto-list .crypto-item:hover {
+  background-color: #f2f5ff;
+  border-radius: 4px;
+}
+.container .selector .crypto-list .crypto-item.selected {
+  background-color: #e0e7ff;
+  border-radius: 5px;
+  padding: 14px;
+}
+.container .selector .crypto-list .crypto-item .icon {
+  display: flex;
+  align-items: center;
+}
+.container .selector .crypto-list .crypto-item .icon img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .selector .crypto-list .crypto-item .heart {
+  cursor: pointer;
+  font-size: 18px;
+}
+.container .selector .crypto-list .no-results {
+  text-align: center;
+  color: #999;
+  padding: 10px;
+}
+
+@media (max-width: 365px) {
+  .container .selector {
+    width: 80%;
+  }
+  .container .selector .filter-bar {
+    flex-wrap: wrap;
+    min-width: unset;
+  }
+  .container .selector .filter-bar .filter-btn {
+    flex: 1 1 45%;
+  }
+  .container .selector .crypto-list .crypto-item {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .container .selector .crypto-list .crypto-item .icon {
+    margin-bottom: 8px;
+  }
+  .container .selector .crypto-list .crypto-item .heart {
+    align-self: flex-end;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
