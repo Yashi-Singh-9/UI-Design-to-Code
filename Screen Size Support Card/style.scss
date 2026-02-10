@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #F7F9FD !important;
+    color: #202842 !important;
+}
+
+main {
+    margin-top: 7rem;
+    max-width: 530px;
+    width: 95%;
+    box-shadow: 0 8px 8px darken($color: #F7F9FD, $amount: 20%);
+
+    .blue {
+        width: 200px;
+        height: 43px;
+    }
+
+    .desktop {
+        width: 120px;
+        height: 120px;
+    }
+
+    span {
+        font-size: 1.25rem; 
+    }
+
+    p {
+        max-width: 360px;
+        width: 100%;
+    }
+
+    ul {
+        margin-top: 6rem;
+
+        li {
+            a,
+            a:visited {
+                font-size: 0.875rem;  
+                color: lighten($color: #202842, $amount: 30%);
+            }           
+        }
+    }
+}
