@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    background-color: #F7F8FC !important;
+    color: #10182F !important;
+}
+
+main {
+    margin-top: 5rem;
+
+    .cards-info {
+        max-width: 380px;
+        width: 95%;
+        box-shadow: 0 10px 10px darken(#F7F8FC, 15%);
+
+        @media (max-width: 807px) {
+            max-width: unset;
+        }
+
+        .prices {
+            background-color: darken(#F7F8FC, 10%);
+
+            h1 {
+                font-size: 2.875rem; 
+            }
+
+            a,
+            a:visited {
+                background-color: #10182F;
+                max-width: 160px;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaA.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #F7F8FC !important;
+  color: #10182F !important;
+}
+main {
+  margin-top: 5rem;
+}
+main .cards-info {
+  max-width: 380px;
+  width: 95%;
+  box-shadow: 0 10px 10px #bfc7e7;
+}
+@media (max-width: 807px) {
+  main .cards-info {
+    max-width: unset;
+  }
+}
+main .cards-info .prices {
+  background-color: #d2d8ee;
+}
+main .cards-info .prices h1 {
+  font-size: 2.875rem;
+}
+main .cards-info .prices a,
+main .cards-info .prices a:visited {
+  background-color: #10182F;
+  max-width: 160px;
+  width: 100%;
+}
