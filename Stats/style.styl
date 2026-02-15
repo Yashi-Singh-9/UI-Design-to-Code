@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap')
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body 
+    font-family 'Mulish', sans-serif !important
+    background-color #EDEFF4 !important
+    color #1C1F2A !important
+  
+main 
+    margin-top 7rem
+    max-width 740px
+    width 95%
+
+    h3 
+        font-weight 800
+
+    .cards 
+        .info
+            max-width 190px
+            width 100%
+
+            @media(max-width: 526px)
+                max-width 100%
+
+            &.one 
+                background linear-gradient(to bottom right, #FFF1F1, #F1FFEC)
+
+            &.two 
+                background linear-gradient(to bottom right, #FFF1FE, #ECFFFE)
+
+            &.three
+                background linear-gradient(to bottom right, #F1F7FF, #FFECEC)    
+
+        .title,
+        .infos 
+            font-size 0.875rem
+
+        .infos 
+            margin-top -0.5rem
+
+    button 
+        background-color #1C1F2A
+        max-width 210px
+        width 100%        

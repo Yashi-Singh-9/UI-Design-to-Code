@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #edeff4 !important;
+  color: #1c1f2a !important;
+}
+main {
+  margin-top: 7rem;
+  max-width: 740px;
+  width: 95%;
+}
+main h3 {
+  font-weight: 800;
+}
+main .cards .info {
+  max-width: 190px;
+  width: 100%;
+}
+@media (max-width: 526px) {
+  main .cards .info {
+    max-width: 100%;
+  }
+}
+main .cards .info.one {
+  background: linear-gradient(to bottom right, #fff1f1, #f1ffec);
+}
+main .cards .info.two {
+  background: linear-gradient(to bottom right, #fff1fe, #ecfffe);
+}
+main .cards .info.three {
+  background: linear-gradient(to bottom right, #f1f7ff, #ffecec);
+}
+main .cards .title,
+main .cards .infos {
+  font-size: 0.875rem;
+}
+main .cards .infos {
+  margin-top: -0.5rem;
+}
+main button {
+  background-color: #1c1f2a;
+  max-width: 210px;
+  width: 100%;
+}
