@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #EFF1F7 !important;
+  color: #202842 !important;
+}
+main {
+  margin-top: 6rem;
+}
+main .card {
+  max-width: 385px;
+  width: 95%;
+  border: none !important;
+  transition: 0.2s ease;
+}
+@media (max-width: 785px) {
+  main .card {
+    max-width: unset;
+  }
+}
+main .card:hover {
+  transform: scale(1.08);
+}
+main .card img {
+  width: 130px;
+  height: 130px;
+}
+main .card h5 {
+  font-size: 1.375rem;
+}
+main .card .title {
+  font-size: 1.125rem;
+}
+main .card .btn {
+  color: #A1A7C0;
+  border: 1.5px solid #D9DCEA;
+  font-size: 1.125rem;
+  transition: 0.2s ease;
+}
+main .card .btn:hover {
+  background-color: #748DFF;
+  color: #fff;
+}

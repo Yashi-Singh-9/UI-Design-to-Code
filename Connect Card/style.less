@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #EFF1F7 !important;
+    color: #202842 !important;
+}
+
+main {
+    margin-top: 6rem;
+
+    .card {
+        max-width: 385px;
+        width: 95%;
+        border: none !important;
+        transition: 0.2s ease;
+
+        @media (max-width: 785px) {
+            max-width: unset;
+        }
+        
+        &:hover {
+            transform: scale(1.08);
+        }
+
+        img {
+            width: 130px;
+            height: 130px;
+        }
+
+        h5 {
+            font-size: 1.375rem;
+        }
+
+        .title {
+            font-size: 1.125rem;
+        }
+
+        .btn {
+            color: #A1A7C0;
+            border: 1.5px solid #D9DCEA;
+            font-size: 1.125rem;
+            transition: 0.2s ease;
+
+            &:hover {
+                background-color: #748DFF;
+                color: #fff;
+            }
+        }
+    }
+}
