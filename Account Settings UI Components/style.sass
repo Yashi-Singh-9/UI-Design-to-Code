@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400&display=swap")
+
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background-color: #EDEFF6
+  font-family: 'Poppins', sans-serif
+  font-weight: 400
+
+main
+  background-color: #fff
+  margin: 6rem auto
+  padding: 2.5rem
+  max-width: 631px
+  width: 100%
+  border-radius: 26px
+  box-shadow: -20px -20px #788EFF
+  
+  @media(max-width: 690px)
+  width: 90%
+  
+  h3
+    font-family: 'Merriweather', serif
+    font-weight: 700
+    color: #0A0938
+    font-size: 1.5rem
+    margin-bottom: 1rem
+
+  span
+    font-size: 1rem
+    display: block
+    margin-bottom: 2rem
+
+  div
+    margin-bottom: 1rem
+
+    input[type="checkbox"]
+      height: 30px
+      width: 30px
+      vertical-align: middle
+      margin-right: 0.5rem
+      accent-color: #788EFF
+
+    label
+      font-size: 1rem
+      color: #0A0938
+      vertical-align: middle
+
+  .button
+    display: flex
+    justify-content: space-between
+    margin-top: 3rem
+    flex-wrap: wrap
+    gap: 1.5rem
+    
+    .skip,
+    .next
+      font-family: 'Poppins', sans-serif
+      font-weight: 400
+      font-size: 1rem
+      width: 81px
+      height: 56px
+      border-radius: 8px
+      cursor: pointer
+      border: none
+      transition: all 0.3s ease
+      
+    .skip
+      color: #0A0938
+      background-color: #EDEFF6
+      
+      &:hover
+        background-color: darken(#EDEFF6, 10%)
+        transform: scale(1.05)
+      
+    .next
+       color: #fff
+       background-color: #0A0938 
+      
+       &:hover
+        background-color: lighten(#0A0938, 20%)
+        transform: scale(1.05)
