@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161c27 !important;
+}
+
+main {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  margin: 10rem auto;
+  max-width: 985px;
+  width: 100%;
+  background-color: #111620;
+  box-shadow: 0 0 0 10px #242c3d;
+}
+@media (max-width: 1045px) {
+  main {
+    width: 90%;
+  }
+}
+main .title {
+  color: #7a90bb;
+  font-size: 1rem;
+}
+main h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.625rem;
+  color: #9ab7ef;
+}
+main .input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+main .input i {
+  position: absolute;
+  left: 15px;
+  color: #7a90bb;
+}
+main .input input[type=text] {
+  max-width: 785px;
+  width: 100%;
+  border: 1px solid #273245;
+  background-color: #161c27;
+  color: #7a90bb;
+  outline: none;
+  padding: 1.3rem 1.3rem 1.3rem 3rem !important;
+}
+main .input input[type=text]::-moz-placeholder {
+  color: #7a90bb;
+}
+main .input input[type=text]::placeholder {
+  color: #7a90bb;
+}
+main .tags {
+  max-width: 720px;
+  width: 100%;
+}
+main .tags span {
+  cursor: pointer;
+  background-color: #142037;
+  color: #7a90bb;
+  font-size: 1rem;
+  border-radius: 25px;
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main .tags span.active {
+  color: #111620;
+  background-color: #92b6ff;
+}/*# sourceMappingURL=style.css.map */
