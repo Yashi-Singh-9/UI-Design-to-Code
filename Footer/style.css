@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f1fe !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh !important;
+}
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+}
+main {
+  font-family: "Poppins", sans-serif !important;
+  max-width: 980px;
+  width: 95%;
+  box-shadow: 0 4px #000;
+}
+@media (max-width: 768px) {
+  main {
+    margin-top: 15rem;
+  }
+}
+main .row .section-1 h3,
+main .row .section-2 h3,
+main .row .section-3 h3,
+main .row .section-4 h3 {
+  color: #202142;
+  font-weight: 600;
+}
+main .row .section-1 h5,
+main .row .section-2 h5,
+main .row .section-3 h5,
+main .row .section-4 h5 {
+  font-weight: 700;
+  color: #88899c;
+}
+main .row .section-1 a,
+main .row .section-2 a,
+main .row .section-3 a,
+main .row .section-4 a,
+main .row .section-1 a:visited,
+main .row .section-2 a:visited,
+main .row .section-3 a:visited,
+main .row .section-4 a:visited {
+  color: #202142;
+  font-weight: 600;
+  font-size: 1rem;
+}
+main .row .section-1 i,
+main .row .section-2 i,
+main .row .section-3 i,
+main .row .section-4 i {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+main .row .section-2 {
+  margin-right: -2.2rem;
+}
+main .footer {
+  margin-top: 5rem;
+}
+@media (max-width: 540px) {
+  main .footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+main .footer .fw-bold {
+  font-size: 1rem;
+}
+main .footer .copyright {
+  font-size: 0.875rem;
+}
