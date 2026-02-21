@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+  min-height: 100vh;
+  color: #1F1F1F !important;
+  font-size: 1.125rem !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 550px;
+  width: 95%;
+}
+main img {
+  width: 200px;
+  height: 200px;
+}
+main .info input {
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+}
+main .info button {
+  background-color: #F72F7A;
+}
