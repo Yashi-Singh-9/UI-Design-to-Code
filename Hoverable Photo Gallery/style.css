@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #404039 !important;
+}
+
+main {
+  margin-top: 5rem;
+  max-width: 650px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+main .panel {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+  transition: flex 0.5s ease;
+  cursor: pointer;
+}
+@media (hover: hover) and (pointer: fine) {
+  main .panel:hover {
+    flex: 5;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+  main .panel {
+    height: 200px;
+    flex: none;
+  }
+  main .panel:hover {
+    flex: none;
+  }
+}/*# sourceMappingURL=style.css.map */

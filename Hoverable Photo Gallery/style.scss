@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #404039 !important;
+}
+
+main {
+  margin-top: 5rem;
+  max-width: 650px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+
+  .panel {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+
+    // Hover effect only on devices that support it
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        flex: 5;
+      }
+    }
+  }
+
+  // Responsive layout for mobile screens
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+
+    .panel {
+      height: 200px;
+      flex: none;
+
+      // Disable hover flex on mobile
+      &:hover {
+        flex: none;
+      }
+    }
+  }
+}
