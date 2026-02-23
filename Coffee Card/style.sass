@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap")
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body 
+    background-color: #E9EAEE !important
+    color: #333333 !important
+    font-family: 'Merriweather', serif !important
+
+main 
+    margin-top: 6rem
+    max-width: 1000px
+    width: 95%    
+
+    .card-image 
+        height: 450px
+
+    .card-info 
+        @media (max-width: 1014px) 
+            width: 100% !important
+        
+        .card-title
+            line-height: 1.5
+
+        .card-description
+            font-size: 1.125rem
+            line-height: 1.5
+            color: #7C8F92
+
+        .card-footer
+            .author-image
+                width: 80px
+                height: 80px
+
+            .author-name
+                .date
+                    font-weight: 400
+                    color: #7C8F92

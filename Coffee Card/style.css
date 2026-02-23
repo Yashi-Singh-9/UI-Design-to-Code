@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E9EAEE !important;
+  color: #333333 !important;
+  font-family: "Merriweather", serif !important;
+}
+
+main {
+  margin-top: 6rem;
+  max-width: 1000px;
+  width: 95%;
+}
+main .card-image {
+  height: 450px;
+}
+@media (max-width: 1014px) {
+  main .card-info {
+    width: 100% !important;
+  }
+}
+main .card-info .card-title {
+  line-height: 1.5;
+}
+main .card-info .card-description {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #7C8F92;
+}
+main .card-info .card-footer .author-image {
+  width: 80px;
+  height: 80px;
+}
+main .card-info .card-footer .author-name .date {
+  font-weight: 400;
+  color: #7C8F92;
+}/*# sourceMappingURL=style.css.map */
