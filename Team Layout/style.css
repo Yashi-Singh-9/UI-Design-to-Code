@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #afacc6 !important;
+}
+main {
+  margin-top: 5rem;
+  max-width: 1200px;
+  width: 95%;
+}
+main .hire {
+  color: #7f56d9;
+  font-size: 0.975rem;
+  font-weight: 600;
+}
+main h2 {
+  color: #101828;
+}
+main p {
+  max-width: 600px;
+  width: 100%;
+  color: #667085;
+}
+main .btns button {
+  max-width: 150px;
+  width: 100%;
+}
+main .btns button.about {
+  border: 2px solid #d0d5dd;
+  color: #474e5d;
+}
+main .btns button.open {
+  background-color: #7f56d9;
+}
+main .user-profile .card {
+  max-width: 260px;
+  width: 100%;
+  cursor: pointer;
+  background-color: #f9fafb;
+  border: 1.5px solid #98a2b3;
+  transition: 0.2s ease;
+}
+main .user-profile .card:hover {
+  background-color: #7f56d9;
+  color: #fff !important;
+}
+main .user-profile .card:hover a,
+main .user-profile .card:hover a:visited,
+main .user-profile .card:hover .title,
+main .user-profile .card:hover p {
+  color: #fff !important;
+}
+main .user-profile .card img {
+  width: 120px;
+  height: 120px;
+}
+main .user-profile .card .name {
+  font-size: 1.125rem;
+}
+main .user-profile .card .title {
+  color: #7f56d9;
+}
+main .user-profile .card p {
+  max-width: 70%;
+  width: 100%;
+  font-size: 0.875rem;
+}
+main .user-profile .card .social-links a,
+main .user-profile .card .social-links a:visited {
+  color: #98a2b3;
+}
