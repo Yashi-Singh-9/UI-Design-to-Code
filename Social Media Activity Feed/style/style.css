@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  min-height: 100vh;
+}
+main {
+  max-width: 720px;
+  width: 98%;
+  margin-top: 6rem;
+  box-shadow: 20px 20px rgba(17, 23, 41, 0.35);
+}
+main .header .settings-logo {
+  color: #FF3434;
+  cursor: pointer;
+}
+main .info .notifications-info {
+  color: #919191;
+}
+main .info .notifications-info a,
+main .info .notifications-info a:visited {
+  color: #FF3434;
+}
+main .info ul li div img {
+  width: 80px;
+  height: 80px;
+}
+main .info ul li div div .user-info a,
+main .info ul li div div .user-info a:visited {
+  color: #FF3434;
+}
+main .info ul li div div .time {
+  color: #919191;
+  font-size: 0.875rem;
+}
+main .info ul li .images {
+  width: 150px;
+  height: 100px;
+}
+main .info .title {
+  font-size: 1.125rem;
+}
